@@ -24,4 +24,8 @@ async def ping(ctx):
 async def cutg(ctx):
     await ctx.send("https://cdn.discordapp.com/attachments/657673094810566656/766280503996448828/video0.mp4")
 
+@bot.command()
+async def no(ctx):
+    await ctx.send("https://media.discordapp.net/attachments/729229092976722023/767795660782436352/gru_no.jpg")
+
 bot.run(TOKEN)
