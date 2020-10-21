@@ -1,10 +1,11 @@
 import discord
 import asyncio
+from discord import Member
 from discord.ext import commands
 
 TOKEN = "NzY4NDQwNjY1OTU5ODI1NDA5.X5AgIw.1wvWUBOlAfop8AQq6-QqpSTrci0"
+
 intents = discord.Intents.all()
-intents.members = True  
 
 bot = commands.Bot(command_prefix= "+" , intents=intents)
 
