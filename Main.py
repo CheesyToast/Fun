@@ -18,6 +18,10 @@ async def on_ready():
 async def ping(ctx):
    "This commands shows the bot latency, also known as the ping of its host server"
    embed = discord.Embed(title = "Want a Ping? Here's a:", description = (f'Pong! {round(client.latency * 1000)}ms'), color = (0xdcddde))
-   await ctx.send(embed=embed)  
+   await ctx.send(embed=embed)
+
+@bot.command()
+async def cutg(ctx):
+    await ctx.send("https://cdn.discordapp.com/attachments/657673094810566656/766280503996448828/video0.mp4")
 
 bot.run(TOKEN)
