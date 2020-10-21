@@ -28,4 +28,8 @@ async def cutg(ctx):
 async def no(ctx):
     await ctx.send("https://media.discordapp.net/attachments/729229092976722023/767795660782436352/gru_no.jpg")
 
+@bot.command()
+async def hug(ctx):
+    await ctx.send("Hug has been given to you!!!!")
+
 bot.run(TOKEN)
