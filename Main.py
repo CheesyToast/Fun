@@ -4,7 +4,7 @@ from discord.ext import commands
 TOKEN = "NzY4NDQwNjY1OTU5ODI1NDA5.X5AgIw.1wvWUBOlAfop8AQq6-QqpSTrci0"
 intents = discord.Intents.default()
 intents.members = True  # Subscribe to the privileged members intent.
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix='\', intents=intents)
 
 @bot.event()
 async def on_ready():
