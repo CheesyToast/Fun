@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "NzY4NDQwNjY1OTU5ODI1NDA5.X5AgIw.tl5cs3OteawFjtkOJ4PxKye8E6g"
+TOKEN = "NzY4NDQwNjY1OTU5ODI1NDA5.X5AgIw.1wvWUBOlAfop8AQq6-QqpSTrci0"
 intents = discord.Intents.default()
 intents.members = True  # Subscribe to the privileged members intent.
 bot = commands.Bot(command_prefix='!', intents=intents)
