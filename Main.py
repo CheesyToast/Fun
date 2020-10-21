@@ -9,7 +9,7 @@ intents = discord.Intents.all()
 
 bot = commands.Bot(command_prefix= "+" , intents=intents)
 
-@bot.event()
+@bot.event
 async def on_ready():
     print("Bot is online!")
 
