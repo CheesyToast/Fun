@@ -35,7 +35,7 @@ async def hug(ctx):
 @bot.group()
 async def gif(ctx):
     if ctx.invoked_subcommand is None:
-        await ctx.send("Invalid gay command passed....")
+        await ctx.send("Invalid gif command passed....")
 
 @gif.command()
 async def wig(ctx):
