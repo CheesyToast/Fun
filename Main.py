@@ -30,6 +30,19 @@ async def no(ctx):
 
 @bot.command()
 async def hug(ctx):
-    await ctx.send("Hug has been given to you!!!!")
+    await ctx.send("Hug has been given to you!!!")
+
+@bot.group()
+async def gif(ctx):
+    if ctx.invoked_subcommand is None:
+        await ctx.send("Invalid gay command passed....")
+
+@gif.command()
+async def wig(ctx):
+    await ctx.send("https://cdn.discordapp.com/emojis/753253658082148543.gif?v=1")
+
+@gif.command()
+async def meap(ctx):
+    await ctx.send("https://tenor.com/view/meap-phineas-and-ferb-phineas-and-ferb-meap-meep-gif-14038245")
 
 bot.run(TOKEN)
